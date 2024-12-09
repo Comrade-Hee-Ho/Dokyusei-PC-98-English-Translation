@@ -1,0 +1,381 @@
+(mes
+ (meta (engine 'AI5) (charset "pc98") (dictbase 128))
+ (dict
+  #\・
+  #\【
+  #\】
+  #\美
+  #\沙
+  #\。
+  #\い
+  #\な
+  #\だ
+  #\、
+  #\て
+  #\ん
+  #\っ
+  #\よ
+  #\き
+  #\の
+  #\う
+  #\か
+  #\で
+  #\？
+  #\あ
+  #\私
+  #\が
+  #\る
+  #\は
+  #\し
+  #\も
+  #\と
+  #\好
+  #\！
+  #\ゃ
+  #\に
+  #\た
+  #\を
+  #\事
+  #\れ
+  #\じ
+  #\ら
+  #\ろ
+  #\け
+  #\く
+  #\言
+  #\合
+  #\ど
+  #\達
+  #\り
+  #\学
+  #\そ
+  #\つ
+  #\ぁ
+  #\ま
+  #\俺
+  #\や
+  #\わ
+  #\校
+  #\友
+  #\ぜ
+  #\み
+  #\方
+  #\ち
+  #\帰)
+ (set-arr~ @ 7 1)
+ (set-arr~ @ 3 0)
+ (set-arr~ @ 2 45056)
+ (set-arr~ @ 7 0)
+ (load "mouse.dat" 49152)
+ (set-arr~ @ 7 1)
+ (set-arr~ @ 1 4096)
+ (set-arr~ @ 6 1)
+ (image "36.pd8")
+ (proc 15)
+ (set-arr~ @ 6 1)
+ (image "l.pd8")
+ (proc 16)
+ (set-arr~ @ 7 1)
+ (set-arr~ @ 1 4096)
+ (set-arr~ @ 6 1)
+ (image "lan.pd8")
+ (set-arr~ @ 6 0)
+ (set-arr~ @ 7 0)
+ (load "l.s4" (~ @ 2))
+ (animate 0 0 0)
+ (animate 1 0)
+ (set-arr~ @ 7 0)
+ (while
+  (== 1 1)
+  (<>
+   (set-arr~ @ 20 (+ (&& (~ @ 20) 65280) 0))
+   (set-arr~ @ 21 (+ 512 16))
+   (set-arr~ @ 20 (// (&& (~ @ 20) 65399) 128))
+   (set-arr~ @ 20 (&& (~ @ 20) 4095))
+   (color 8)
+   (set-arr~ @ 6 0)
+   (set-arr~ @ 13 15 322 64 391)
+   (clear)
+   (if-else (== N 10)
+     (<>
+      (text #:color 7 "【" 0 "】や、やあ・・・。")
+      (wait)
+      (cond
+       ((== (: 711) 0) (<> (text #:color 3 "【美沙】なにが『やあ』だよ・・・私に何か用か？") (wait)))
+       ((== (: 711) 1)
+        (<>
+         (text #:color 3 "【美沙】びっくりしたわ・・・いきなり学校の校庭で待ってるなんて言うから。")
+         (wait)
+         (text #:color 7 "【" 0 "】・・・。")
+         (wait)
+         (text #:color 3 "【美沙】" 0 "・・・何か話があるんでしょ？")
+         (wait)))
+       (else (<>)))
+      (text #:color 7 "【" 0 "】そうだよ、話があるから美沙を呼び出したんだ。")
+      (wait)
+      (text #:color 3 "【美沙】いばらないでよ。")
+      (wait)
+      (text #:color 7 "【" 0 "】えーと・・・。")
+      (wait)
+      (text #:color 3 "【美沙】・・・。")
+      (wait)
+      (text #:color 7 "【" 0 "】美沙と・・・つき合いたいんだ。")
+      (wait)
+      (text #:color 3 "【美沙】え！？")
+      (wait)
+      (text #:color 7 "【" 0 "】だからあ、美沙に交際を申し込んでるんだよ。")
+      (wait)
+      (cond
+       ((< (: 113) 3)
+        (<>
+         (sound 1)
+         (set-var I 13)
+         (proc 26)
+         (text #:color 3 "【美沙】私に交際って・・・ふざけんなよ。")
+         (wait)
+         (text #:color 3 "【美沙】私はお前なんか大っ嫌いだよ、ふん！！")
+         (wait)
+         (text #:color 7 "【" 0 "】ぐうわあぁぁぁぁ・・・ん。")
+         (wait)
+         (sound 1)
+         (set-var I 47)
+         (proc 26)
+         (text #:color 3 "【美沙】正直言って、顔を見るのもいやなんだぜ・・・今だって我慢してるんだ。")
+         (wait)
+         (text #:color 7 "【" 0 "】み、美沙・・・。")
+         (wait)
+         (text #:color 3 "【美沙】まったく、とんでもない事を言うやつだぜ・・・私の事が好きだって！？")
+         (wait)
+         (text #:color 7 "【" 0 "】だ、だって・・・。")
+         (wait)
+         (text #:color 3 "【美沙】だってじゃないよ、私は" 0 "の話を聞いてる暇はないんだ・・・じゃあな、あばよっ！！")
+         (wait)
+         (text #:color 7 "【" 0 "】あ・・・み、美沙！？")
+         (wait)
+         (set-reg: 829 1)
+         (slot 1 1)
+         (mes-jump "y15.mes")))
+       ((< (: 113) 6)
+        (<>
+         (sound 1)
+         (set-var I 13)
+         (proc 26)
+         (text #:color 3 "【美沙】私に交際を申し込んでるだって！？")
+         (wait)
+         (text #:color 3 "【美沙】冗談じゃないよ・・・どうして私が、" 0 "なんかとつき合わなけりゃいけないんだよ。")
+         (wait)
+         (text #:color 7 "【" 0 "】ぐうわあぁぁぁぁ・・・ん。")
+         (wait)
+         (sound 1)
+         (set-var I 47)
+         (proc 26)
+         (text #:color 3 "【美沙】今の話は聞かなかった事にしてやるから・・・二度と変な事を言うなよ。")
+         (wait)
+         (text #:color 7 "【" 0 "】そ、そんな言い方って・・・。")
+         (wait)
+         (text #:color 3 "【美沙】じゃあはっきり言ってやるよ、嫌いなんだよ" 0 "が。")
+         (wait)
+         (text #:color 7 "【" 0 "】そ、そんな・・・。")
+         (wait)
+         (text #:color 3 "【美沙】学校が始まっても、私に声をかけるなよ・・・じゃあな！！")
+         (wait)
+         (text #:color 7 "【" 0 "】あ・・・み、美沙！？")
+         (wait)
+         (set-reg: 829 1)
+         (slot 1 1)
+         (mes-jump "y15.mes")))
+       ((&& (< (: 113) 13) (== (: 711) 0))
+        (<>
+         (sound 1)
+         (set-var I 12)
+         (proc 26)
+         (text #:color 3 "【美沙】私も・・・" 0 "が好きだよ。")
+         (wait)
+         (text #:color 7 "【" 0 "】本当に！？")
+         (wait)
+         (text #:color 3 "【美沙】でも・・・私達って友達でいた方がいいと思うんだ。")
+         (wait)
+         (sound 1)
+         (set-var I 46)
+         (proc 26)
+         (text #:color 7 "【" 0 "】ど、どうして・・・美沙は俺の事が好きで、俺は美沙の事が好きなんだろ？")
+         (wait)
+         (text #:color 3 "【美沙】好きって言っても、友達として好きなだけさ・・・それだけだよ。")
+         (wait)
+         (text #:color 7 "【" 0 "】友達・・・。")
+         (wait)
+         (text #:color 3 "【美沙】なあ、" 0 "には私なんかより、もっと似合う女の子がいるよ・・・だろ？")
+         (wait)
+         (text #:color 7 "【" 0 "】・・・。")
+         (wait)
+         (text #:color 3 "【美沙】じゃあな、" 0 "・・・明日から新学期だから、学校で会おうぜ。")
+         (wait)
+         (text #:color 7 "【" 0 "】あ・・・み、美沙！？")
+         (set-reg: 829 2)
+         (slot 1 1)
+         (mes-jump "y15.mes")))
+       ((&& (< (: 113) 13) (== (: 711) 1))
+        (<>
+         (sound 1)
+         (set-var I 12)
+         (proc 26)
+         (text #:color 3 "【美沙】私も・・・" 0 "が好き。")
+         (wait)
+         (text #:color 7 "【" 0 "】本当に！？")
+         (wait)
+         (text #:color 3 "【美沙】でも・・・私達って友達でいた方がいいと思うの。")
+         (wait)
+         (sound 1)
+         (set-var I 46)
+         (proc 26)
+         (text #:color 7 "【" 0 "】ど、どうして・・・美沙は俺の事が好きで、俺は美沙の事が好きなんだろ？")
+         (wait)
+         (text #:color 3 "【美沙】好きって言っても、友達として好きなだけ・・・それだけよ。")
+         (wait)
+         (text #:color 7 "【" 0 "】友達・・・。")
+         (wait)
+         (text #:color 3 "【美沙】" 0 "には私なんかより、もっと似合う女の子がいる・・・でしょう？")
+         (wait)
+         (text #:color 7 "【" 0 "】・・・。")
+         (wait)
+         (text #:color 3 "【美沙】じゃあね、" 0 "・・・明日から新学期だから、学校で会いましょう。")
+         (wait)
+         (text #:color 7 "【" 0 "】あ・・・み、美沙！？")
+         (set-reg: 829 2)
+         (slot 1 1)
+         (mes-jump "y15.mes")))
+       ((&& (< (: 113) 16) (== (: 710) 1))
+        (<>
+         (sound 1)
+         (set-var I 12)
+         (proc 26)
+         (text #:color 3 "【美沙】私・・・うれしい。")
+         (wait)
+         (text #:color 7 "【" 0 "】って事は・・・つき合ってくれるって事？")
+         (wait)
+         (text #:color 3 "【美沙】それはできないよ・・・わかるだろ？")
+         (wait)
+         (sound 1)
+         (set-var I 46)
+         (proc 26)
+         (text #:color 7 "【" 0 "】ど、どうして？")
+         (wait)
+         (text #:color 3 "【美沙】私は・・・美穂を裏切れないもんな。")
+         (wait)
+         (text #:color 7 "【" 0 "】・・・。")
+         (wait)
+         (text #:color 3 "【美沙】" 0 "が告白してくれたから、私も言うけど・・・" 0 "の事がすごく好きだった。")
+         (wait)
+         (text #:color 7 "【" 0 "】だった？")
+         (wait)
+         (text #:color 3 "【美沙】もちろん今も好きだけどさ・・・" 0 "には美穂がいるじゃないか。")
+         (wait)
+         (text #:color 7 "【" 0 "】美穂ちゃんは・・・。")
+         (wait)
+         (text #:color 3 "【美沙】" 0 "の恋人で、私と" 0 "は・・・友達だろ？")
+         (wait)
+         (text #:color 7 "【" 0 "】・・・。")
+         (wait)
+         (text #:color 3 "【美沙】さてと、帰ろうぜ・・・また明日から学校だもんな。")
+         (wait)
+         (text #:color 7 "【" 0 "】美沙・・・。")
+         (wait)
+         (text #:color 3 "【美沙】じゃあな、" 0 "・・・ちゃんと学校に来いよ、美穂が悲しむぜ！！")
+         (wait)
+         (text #:color 7 "【" 0 "】あ・・・み、美沙！？")
+         (set-reg: 829 2)
+         (slot 1 1)
+         (mes-jump "y15.mes")))
+       ((&& (< (: 113) 16) (== (: 711) 0))
+        (<>
+         (sound 1)
+         (set-var I 21)
+         (proc 26)
+         (text #:color 3 "【美沙】私・・・うれしい。")
+         (wait)
+         (text #:color 7 "【" 0 "】って事は・・・つき合ってくれるって事？")
+         (wait)
+         (sound 1)
+         (set-var I 29)
+         (proc 26)
+         (text #:color 3 "【美沙】私でいいのか？")
+         (wait)
+         (text #:color 7 "【" 0 "】もちろんだよ・・・俺の心の中は、美沙の事で一杯なんだ。")
+         (wait)
+         (text #:color 3 "【美沙】夢じゃないわよね・・・いてててて。")
+         (wait)
+         (text #:color 7 "【" 0 "】夢であってたまるか。")
+         (wait)
+         (text #:color 3 "【美沙】私も" 0 "とつき合いたい・・・照れるぜ。")
+         (wait)
+         (text #:color 7 "【" 0 "】美沙・・・好きだよ。")
+         (wait)
+         (text #:color 3 "【美沙】私の方が・・・" 0 "を好きだよ、きっと。")
+         (wait)
+         (text #:color 7 "【" 0 "】俺はもう、他の女の子を好きになれない・・・美沙だけだ。")
+         (wait)
+         (text #:color 3 "【美沙】・・・。")
+         (wait)
+         (text #:color 7 "【" 0 "】泣くなよ・・・。")
+         (wait)
+         (text #:color 3 "【美沙】いいじゃないかよ、うれしい時の涙なんだから。")
+         (wait)
+         (text #:color 7 "【" 0 "】一緒に・・・帰ろうか？")
+         (wait)
+         (text #:color 3 "【美沙】うん・・・腕を組んで歩きたいな。")
+         (wait)
+         (text #:color 7 "【" 0 "】じゃあ、腕を組んで帰ろう・・・美沙の家まで送るよ。")
+         (wait)
+         (text #:color 3 "【美沙】ありがと・・・。")
+         (wait)
+         (set-reg: 829 3)
+         (slot 1 1)
+         (mes-jump "y15.mes")))
+       ((&& (< (: 113) 16) (== (: 711) 1))
+        (<>
+         (sound 1)
+         (set-var I 21)
+         (proc 26)
+         (text #:color 3 "【美沙】私・・・すごくうれしい。")
+         (wait)
+         (text #:color 7 "【" 0 "】って事は・・・つき合ってくれるって事？")
+         (wait)
+         (sound 1)
+         (set-var I 29)
+         (proc 26)
+         (text #:color 3 "【美沙】私でいいの？")
+         (wait)
+         (text #:color 7 "【" 0 "】もちろんだよ・・・俺の心の中は、美沙の事で一杯なんだ。")
+         (wait)
+         (text #:color 3 "【美沙】夢じゃないわよね？")
+         (wait)
+         (text #:color 7 "【" 0 "】夢であってたまるか。")
+         (wait)
+         (text #:color 3 "【美沙】私も・・・" 0 "とつき合いたい。")
+         (wait)
+         (text #:color 7 "【" 0 "】美沙・・・好きだよ。")
+         (wait)
+         (text #:color 3 "【美沙】私の方が・・・" 0 "を好きよ。")
+         (wait)
+         (text #:color 7 "【" 0 "】俺はもう、他の女の子を好きになれない・・・美沙だけだ。")
+         (wait)
+         (text #:color 3 "【美沙】・・・。")
+         (wait)
+         (text #:color 7 "【" 0 "】泣くなよ・・・。")
+         (wait)
+         (text #:color 3 "【美沙】いいじゃない、うれしい時の涙なんだから・・・。")
+         (wait)
+         (text #:color 7 "【" 0 "】一緒に・・・帰ろうか？")
+         (wait)
+         (text #:color 3 "【美沙】うん・・・腕を組んで歩きたい。")
+         (wait)
+         (text #:color 7 "【" 0 "】じゃあ、腕を組んで帰ろう・・・美沙の家まで送るよ。")
+         (wait)
+         (text #:color 3 "【美沙】ありがと・・・。")
+         (wait)
+         (set-reg: 829 3)
+         (slot 1 1)
+         (mes-jump "y15.mes")))
+       (else (<>))))
+     (<>))))
+ (set-arr~ @ 7 1))
