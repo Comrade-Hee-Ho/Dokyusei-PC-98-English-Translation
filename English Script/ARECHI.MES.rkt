@@ -61,12 +61,12 @@ it?")
       (cond
        ((== N 1)
         (<>
-         (text #:color 7 "" 0 ": What...? \"This envelope with money,
-it's yours.\".")
+         (text #:color 7 "" 0 ": What...? “This envelope with money,
+it's yours.”.")
          (wait)
-         (text #:color 7 "" 0 ": \"This is your last summer vacation...
+         (text #:color 7 "" 0 ": “This is your last summer vacation...
 The memories of the youth are bittersweet, so
-for your sake make good use of this.\"...!?")
+for your sake make good use of this.”...!?")
          (wait)
          (text #:color 7 "" 0 ": T-ten thousand yen!? Who the hell is
 this envelope from!?")
@@ -111,12 +111,12 @@ still laying on the ground.")
       (cond
        ((== N 1)
         (<>
-         (text #:color 7 "" 0 ": What...? \"This envelope with money,
-it's yours.\".")
+         (text #:color 7 "" 0 ": What...? “This envelope with money,
+it's yours.”.")
          (wait)
-         (text #:color 7 "" 0 ": \"This is your last summer vacation...
+         (text #:color 7 "" 0 ": “This is your last summer vacation...
 The memories of the youth are bittersweet, so
-for your sake make good use of this.\"...!?")
+for your sake make good use of this.”...!?")
          (wait)
          (text #:color 7 "" 0 ": T-ten thousand yen!? Who the hell is
 this envelope from!?")
