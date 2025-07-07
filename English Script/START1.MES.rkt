@@ -423,16 +423,15 @@ a very independent 18-year old.")
  (text #:color 7 "Everyone respects me, and calls me " 0 "...
 Wait, isn't that just my name?")
  (wait)
- (text #:color 7 "Anyway,the people around me sees me as a \"horny
-lady-killer\", \"pervert\" and \"guy whose dick is 
-thirsty\".")
+ (text #:color 7 "Anyway,the people around me sees me as a “horny
+lady-killer”, “pervert” and “guy whose dick is 
+thirsty”.")
  (wait)
  (text #:color 7 "It truly seems to be like that.")
  (wait)
  (text #:color 7 "...")
  (wait)
- (text #:color 7
-  "This year's summer vacation will be my last as a
+ (text #:color 7 "This year's summer vacation will be my last as a
 student... But I spend my time during the first
 half of it saving up money, all so I could date a
 girl.")
@@ -496,14 +495,14 @@ it!!")
  (text #:color 6 "*Ring* *ring* *ring*")
  (wait)
  (set-arr~ @ 21 272)
- (text #:color 7 "" 0 ":*mumbling* Hmm... Who is it...
+ (text #:color 7 "" 0 ": *Mumbling* Hmm... Who is it...
 Who is bothering my sweet sleep...")
  (wait)
  (set-arr~ @ 21 272)
  (text #:color 6 "*Ring* *ring* *ring*")
  (wait)
  (set-arr~ @ 21 272)
- (text #:color 7 "【" 0 ": ...")
+ (text #:color 7 "" 0 ": ...")
  (wait)
  (set-arr~ @ 21 272)
  (text #:color 6 "*Ring* *ring* *ring*")

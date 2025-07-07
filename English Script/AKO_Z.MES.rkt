@@ -1,6 +1,6 @@
 (mes
  (meta (engine 'AI5) (charset "English") (dictbase 128))
- (dict-build)
+(dict-build)
  (set-arr~ @ 7 1)
  (set-arr~ @ 3 0)
  (set-arr~ @ 2 45056)
@@ -41,11 +41,11 @@
       (animate 0 0 0)
       (animate 1 0)
       (set-arr~ @ 7 0)
-      (text #:color 7 "" 0 ": Her name is \"Ako Saito\", she's a woman
+      (text #:color 7 "" 0 ": Her name is “Ako Saito”, she's a woman
 who works at the Saito Pharmacy.")
       (wait)
-      (text #:color 7 "" 0 ": Ako is the younger sister of \"Mako
-Saito\", Sakimake Academy's doctor, Mako and I
+      (text #:color 7 "" 0 ": Ako is the younger sister of “Mako
+Saito”, Sakimake Academy's doctor, Mako and I
 attend there.")
       (wait)
       (text #:color 7 "" 0 ": I was thinking, doesn't she have a
@@ -152,7 +152,7 @@ other parts.")
          (set-arr~ @ 7 0)
          (animate 0 8 0)
          (animate 4 8)
-         (text #:color 7 "" 0 ": The final touch was a little kiss
+         (text #:color 7 "" 0 ": The final touch was a little kiss—
 just a small reward. After that, she beamed with
 joy and dashed off.")
          (wait)
@@ -303,7 +303,7 @@ thrust away, so I forcibly removed her clothes.")
          (text #:color 7 "" 0 ": However, she asked in such a insistent
 way, that I thought on leaving her.")
          (wait)
-         (text #:color 7 "" 0 ": Then the opposite of \"going home\"
+         (text #:color 7 "" 0 ": Then the opposite of “going home”
 happened... Really, I don't understand women's
 heart.")
          (wait)
