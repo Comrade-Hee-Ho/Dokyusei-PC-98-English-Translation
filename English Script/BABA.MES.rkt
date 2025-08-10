@@ -52,7 +52,7 @@ something? Hihihi...")
          (color 8)
          (clear)
          (text #:color 2 "Cruel Granny: Even if you need
-something, I don't. Now give me 1000
+something, I do. Now give me 1000
 yen as compensation for wasting my
 time, hihihi.")
          (wait)
@@ -107,9 +107,13 @@ money?!")
       (set-arr~ @ 13 28 48 65 127)
       (color 8)
       (clear)
-      (text #:color 2 "Cruel Granny: Who dares to... Oh, it'syou again.")
+      (text #:color 2 "Cruel Granny: Who dares to... Oh,
+it's you again.")
       (wait)
-      (text #:color 2 "Cruel Granny: You haven't learned yourlesson, haven't you dear boy? Will youhappen to need something from me now?")
+      (text #:color 2 "Cruel Granny: You haven't learned
+your lesson, haven't you dear boy?
+So, will you happen to need something
+from me now?")
       (wait)
       (set-reg: 101 0)
       (set-arr~ @ 7 0)
