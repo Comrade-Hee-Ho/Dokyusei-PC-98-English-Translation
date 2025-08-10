@@ -65,11 +65,12 @@ time, hihihi.")
          (set-arr~ @ 13 28 48 65 127)
          (color 8)
          (clear)
-         (text #:color 2 "Old Granny: You may not need anything, but you
-still called for me...
+         (text #:color 2 "Cruel Granny: You may not need
+anything, but you still called for
+me...
 What an outrageous little brat!")
          (wait)
-         (text #:color 2 "Old Granny: Now give me 1000 yen as
+         (text #:color 2 "Cruel Granny: Now give me 1000 yen as
 compensation for wasting my time,
 hihihi.")
          (wait)
@@ -81,6 +82,7 @@ hihihi.")
       (set-arr~ @ 13 15 322 64 391)
       (color 8)
       (clear)
+   (set-arr~ @ 21 (+ 256 16))
       (text #:color 7 "" 0 ": Gah!! How dare you take my
 money?!")
       (wait)
@@ -105,12 +107,9 @@ money?!")
       (set-arr~ @ 13 28 48 65 127)
       (color 8)
       (clear)
-      (text #:color 2 "Cruel Granny: Who dares to... Oh, it's
-you again.")
+      (text #:color 2 "Cruel Granny: Who dares to... Oh, it'syou again.")
       (wait)
-      (text #:color 2 "Cruel Granny: You haven't learned your
-lesson, haven't you dear boy? Will you
-happen to need something from me now?")
+      (text #:color 2 "Cruel Granny: You haven't learned yourlesson, haven't you dear boy? Will youhappen to need something from me now?")
       (wait)
       (set-reg: 101 0)
       (set-arr~ @ 7 0)
@@ -137,11 +136,12 @@ time, hihihi.")
          (set-arr~ @ 13 28 48 65 127)
          (color 8)
          (clear)
-         (text #:color 2 "Old Granny: You may not need anything,
-but you still called for me...
+         (text #:color 2 "Cruel Granny: You may not need
+anything, but you still called for
+me...
 What an outrageous little brat!")
          (wait)
-         (text #:color 2 "Old Granny: Now give me 1000 yen as
+         (text #:color 2 "Cruel Granny: Now give me 1000 yen as
 compensation for wasting my time,
 hihihi.")
          (wait)
@@ -153,6 +153,7 @@ hihihi.")
       (set-arr~ @ 13 15 322 64 391)
       (color 8)
       (clear)
+   (set-arr~ @ 21 (+ 256 16))
       (text #:color 7 "" 0 ": Gah!! How dare you take my
 money?!")
       (wait)
