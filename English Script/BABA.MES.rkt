@@ -52,7 +52,7 @@ something? Hihihi...")
          (color 8)
          (clear)
          (text #:color 2 "Cruel Granny: Even if you need
-something, I do. Now give me 1000
+something, I don't. Now give me 1000
 yen as compensation for wasting my
 time, hihihi.")
          (wait)
