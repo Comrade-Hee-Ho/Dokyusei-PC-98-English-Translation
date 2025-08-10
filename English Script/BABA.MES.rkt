@@ -105,7 +105,8 @@ money?!")
       (set-arr~ @ 13 28 48 65 127)
       (color 8)
       (clear)
-      (text #:color 2 "Cruel Granny: Who dares to... Oh, it's you again.")
+      (text #:color 2 "Cruel Granny: Who dares to... Oh, it's
+you again.")
       (wait)
       (text #:color 2 "Cruel Granny: You haven't learned your
 lesson, haven't you dear boy? Will you
