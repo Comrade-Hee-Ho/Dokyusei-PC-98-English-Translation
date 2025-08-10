@@ -137,8 +137,8 @@ time, hihihi.")
          (set-arr~ @ 13 28 48 65 127)
          (color 8)
          (clear)
-         (text #:color 2 "Old Granny: You may not need anything, but you
-still called for me...
+         (text #:color 2 "Old Granny: You may not need anything,
+but you still called for me...
 What an outrageous little brat!")
          (wait)
          (text #:color 2 "Old Granny: Now give me 1000 yen as
