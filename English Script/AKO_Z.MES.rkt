@@ -152,7 +152,7 @@ other parts.")
          (set-arr~ @ 7 0)
          (animate 0 8 0)
          (animate 4 8)
-         (text #:color 7 "" 0 ": The final touch was a little kiss—
+         (text #:color 7 "" 0 ": The final touch was a little kiss,
 just a small reward. After that, she beamed with
 joy and dashed off.")
          (wait)
