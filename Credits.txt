@@ -2,8 +2,10 @@ Main Translator: Hee-Ho
 
 Additional Translations: Just J, Her-Saki
 
-Editor: Anonymous
+Editor: 
 
 Graphics Editing: N3O
 
 Romhacking: FCandChill, Kirinn
+
+Special Thanks: Anonymous
