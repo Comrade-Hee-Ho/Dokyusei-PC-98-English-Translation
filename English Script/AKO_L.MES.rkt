@@ -61,10 +61,11 @@ You really are acting funny.")
        ((< (: 106) 6) (<> (text #:color 2 "Ako: What is it?") (wait)))
        ((> (: 106) 5) (<> (text #:color 2 "Ako: What?") (wait)))
        (else (<>)))
-      (text #:color 7 "" 0 ": W-well... I want to go out with you.")
+      (text #:color 7 "" 0 ": W-well... I want to go steady with
+you.")
       (wait)
-      (text #:color 7 "" 0 ": I mean it, seriously... Since I'm not
-my usual self today.")
+      (text #:color 7 "" 0 ": I'm serious about this, not playing
+around like usual.")
       (wait)
       (text #:color 2 "Ako: " 0 "...")
       (wait)
@@ -77,27 +78,28 @@ my usual self today.")
          (set-var I 13)
          (proc 26)
          (text #:color 2 "Ako: " 0 "... The thing is... I...
-I don't like you the same way.")
+I hate you.")
          (wait)
          (text #:color 7 "" 0 ": Gwaaaahhh...")
          (wait)
          (sound 1)
          (set-var I 47)
          (proc 26)
-         (text #:color 2 "Ako: I'm saying it honestly, I don't even
-want to look you in the face, understand?")
+         (text #:color 2 "Ako: To be brutally honest, I don't even want to
+look you in the face, understand?")
          (wait)
          (text #:color 7 "" 0 ": A-Ako...")
          (wait)
-         (text #:color 2 "Ako: " 0 " each time you go to this
-pharmacy it makes me want to close the shop.")
+          (text #:color 2 "Ako: " 0 " every time you come to this
+drugstore it makes me want to close the shop.")
          (wait)
-         (text #:color 7 "" 0 ": I-I see...")
+         (text #:color 7 "" 0 ": N-No way...")
          (wait)
-         (text #:color 2 "Ako: If possible, could you go
-to a different pharmacy next time?")
+         (text #:color 2 "Ako: If possible, I'd rather not see you around
+here anymore. Could you drop by by another
+drugstore from now on?")
          (wait)
-         (text #:color 7 "" 0 ": I-Is that so...")
+         (text #:color 7 "" 0 ": N-No way...")
          (wait)
          (text #:color 2 "Ako: So, could you go home...?
 And " 0 ", if you keep talking I'll
@@ -118,19 +120,22 @@ start feeling depressed.")
          (sound 1)
          (set-var I 47)
          (proc 26)
-         (text #:color 2 "Ako: I'm sorry but... Now I'd like to ")
+         (text #:color 2 "Ako: I'm sorry but... I'd like to forget we even
+had this conversation.")
          (wait)
          (text #:color 7 "" 0 ": A-Ako...")
          (wait)
-         (text #:color 2 "Ako: Generally during a confession
-I don't know what to do...")
+         (text #:color 2 "Ako: I don't even know what I'm supposed to do
+during a confession... It's enough to make me
+feel sick.")
          (wait)
-         (text #:color 7 "" 0 ": I-I see...")
+         (text #:color 7 "" 0 ": N-No way...")
          (wait)
-         (text #:color 2 "Ako: If possible, could you go
-to a different pharmacy next time?")
+         (text #:color 2 "Ako: If possible, I'd rather not see you around
+here anymore. Could you drop by by another
+drugstore from now on?")
          (wait)
-         (text #:color 7 "" 0 ": I-Is that so...")
+         (text #:color 7 "" 0 ": N-No way...")
          (wait)
          (text #:color 2 "Ako: So, could you go home...?
 And " 0 ", if you keep talking I'll
@@ -162,7 +167,7 @@ I like you the most.")
 I like you but as painful as it is for me,
 I'd like to stay as friends.")
          (wait)
-         (text #:color 7 "" 0 ": I-I see...")
+         (text #:color 7 "" 0 ": N-No way...")
          (wait)
          (text #:color 2 "Ako: Tomorrow you go back to school,
 so good luck " 0 ".")
@@ -183,20 +188,20 @@ so good luck " 0 ".")
          (proc 26)
          (text #:color 2 "Ako: I am so, so happy.")
          (wait)
-         (text #:color 2 "Ako: " 0 "... I've never dreamed of
-something like this.")
+         (text #:color 2 "Ako: " 0 "... I've never dreamed you'd ask me
+out.")
          (wait)
          (sound 1)
          (set-var I 29)
          (proc 26)
          (text #:color 7 "" 0 ": Ako...")
          (wait)
-         (text #:color 2 "Ako: " 0 " I really want to be with you...
-So I'll do for anything for you.")
+         (text #:color 2 "Ako: " 0 " I'd do anything for you... Your
+wish is my command.")
          (wait)
          (text #:color 7 "" 0 ": ...")
          (wait)
-         (text #:color 2 "Ako: But... I won't reject")
+         (text #:color 2 "Ako: So, please... Don't abandon me.")
          (wait)
          (text #:color 7 "" 0 ": O-Of course.")
          (wait)
