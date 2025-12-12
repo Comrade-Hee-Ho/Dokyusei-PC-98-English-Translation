@@ -2,11 +2,10 @@ Main Translator: Hee-Ho
 
 Additional Translations: Just J, Her-Saki
 
-Editor: Usonius
+Editor:
 
 Graphics Editing: N3O
 
 Romhacking: FCandChill, Kirinn
 
 Special Thanks: Xiya (for initially editing the script and being a huge inspiration for me with this project)
-
