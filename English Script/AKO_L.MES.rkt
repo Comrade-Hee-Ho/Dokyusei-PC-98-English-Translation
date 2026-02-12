@@ -41,28 +41,29 @@
       (wait)
       (text #:color 2 "Ako: Welcome..." 0 ".")
       (wait)
-      (text #:color 7 "" 0 ": Ako... You alone?")
+      (text #:color 7 "" 0 ": Ako... Are you alone?")
       (wait)
-      (text #:color 2 "Ako: Yes, I'm alone... Mako is still at the
-school.")
+      (text #:color 2 "Ako: Yes, I'm alone... Mako is currently going
+to school.")
       (wait)
       (text #:color 7 "" 0 ": I see... Is Mako also alone?")
       (wait)
-      (text #:color 2 "Ako: You're acting strange " 0 "...
+      (text #:color 2 "Ako: How strange " 0 "...
 You really are acting funny.")
       (wait)
       (text #:color 7 "" 0 ": Ehh, you see...")
       (wait)
-      (text #:color 2 "Ako: Is there something you want to talk about?")
+      (text #:color 2 "Ako: Is there something you want to talk
+about?")
       (wait)
-      (text #:color 7 "" 0 ": Yes.")
+      (text #:color 7 "" 0 ": Yeah...")
       (wait)
       (cond
        ((< (: 106) 6) (<> (text #:color 2 "Ako: What is it?") (wait)))
-       ((> (: 106) 5) (<> (text #:color 2 "Ako: What?") (wait)))
+       ((> (: 106) 5) (<> (text #:color 2 "Ako: What...?") (wait)))
        (else (<>)))
-      (text #:color 7 "" 0 ": W-well... I want to go steady with
-you.")
+      (text #:color 7 "" 0 ": W-well... I want to make things
+official between us.")
       (wait)
       (text #:color 7 "" 0 ": I'm serious about this, not playing
 around like usual.")
@@ -78,7 +79,7 @@ around like usual.")
          (set-var I 13)
          (proc 26)
          (text #:color 2 "Ako: " 0 "... The thing is... I...
-I hate you.")
+I really dislike you.")
          (wait)
          (text #:color 7 "" 0 ": Gwaaaahhh...")
          (wait)
@@ -91,19 +92,19 @@ look you in the face, understand?")
          (text #:color 7 "" 0 ": A-Ako...")
          (wait)
           (text #:color 2 "Ako: " 0 " every time you come to this
-drugstore it makes me want to close the shop.")
+pharmacy it makes me want to close the shop.")
          (wait)
          (text #:color 7 "" 0 ": N-No way...")
          (wait)
-         (text #:color 2 "Ako: If possible, I'd rather not see you around
-here anymore. Could you drop by by another
-drugstore from now on?")
+         (text #:color 2 "Ako: If possible, I want you to never come here
+again. Could you drop by by another pharmacy
+from now on?")
          (wait)
          (text #:color 7 "" 0 ": N-No way...")
          (wait)
          (text #:color 2 "Ako: So, could you go home...?
-And " 0 ", if you keep talking I'll
-start feeling depressed.")
+And " 0 ", if you keep talking I'll start
+feeling depressed.")
          (wait)
          (set-reg: 821 1)
          (slot 1 1)
@@ -113,14 +114,14 @@ start feeling depressed.")
          (sound 1)
          (set-var I 13)
          (proc 26)
-         (text #:color 2 "Ako: I... " 0 " I don't like you")
+         (text #:color 2 "Ako: " 0 "... I... I don't like you.")
          (wait)
          (text #:color 7 "" 0 ": Gwaaaahhh...")
          (wait)
          (sound 1)
          (set-var I 47)
          (proc 26)
-         (text #:color 2 "Ako: I'm sorry but... I'd like to forget we even
+         (text #:color 2 "Ako: I'm sorry... I'd rather pretend we never
 had this conversation.")
          (wait)
          (text #:color 7 "" 0 ": A-Ako...")
@@ -131,15 +132,15 @@ feel sick.")
          (wait)
          (text #:color 7 "" 0 ": N-No way...")
          (wait)
-         (text #:color 2 "Ako: If possible, I'd rather not see you around
-here anymore. Could you drop by by another
-drugstore from now on?")
+         (text #:color 2 "Ako: If possible, I want you to never come here
+again. Could you drop by by another pharmacy
+from now on?")
          (wait)
          (text #:color 7 "" 0 ": N-No way...")
          (wait)
          (text #:color 2 "Ako: So, could you go home...?
-And " 0 ", if you keep talking I'll
-start feeling depressed.")
+And " 0 ", if you keep talking I'll start
+feeling depressed.")
          (wait)
          (set-reg: 821 1)
          (slot 1 1)
@@ -160,12 +161,11 @@ so...")
          (sound 1)
          (set-var I 46)
          (proc 26)
-         (text #:color 7 "" 0 ": Out of all of them
+         (text #:color 7 "" 0 ": But out of all of them
 I like you the most.")
          (wait)
-         (text #:color 2 "Ako: I'm sorry" 0 "...
-I like you but as painful as it is for me,
-I'd like to stay as friends.")
+         (text #:color 2 "Ako: I'm sorry " 0 ", I like you but... I'd
+like to stay as friends.")
          (wait)
          (text #:color 7 "" 0 ": N-No way...")
          (wait)
@@ -174,7 +174,7 @@ so good luck " 0 ".")
          (wait)
          (text #:color 7 "" 0 ": ...")
          (wait)
-         (text #:color 2 "Ako: " 0 "... Hope you can return soon.")
+         (text #:color 2 "Ako: " 0 ", please go home.")
          (wait)
          (text #:color 7 "" 0 ": ...")
          (wait)
@@ -188,16 +188,16 @@ so good luck " 0 ".")
          (proc 26)
          (text #:color 2 "Ako: I am so, so happy.")
          (wait)
-         (text #:color 2 "Ako: " 0 "... I've never dreamed you'd ask me
-out.")
+         (text #:color 2 "Ako: " 0 "... For you to ask me such a
+thing... It's like a dream come true.")
          (wait)
          (sound 1)
          (set-var I 29)
          (proc 26)
          (text #:color 7 "" 0 ": Ako...")
          (wait)
-         (text #:color 2 "Ako: " 0 " I'd do anything for you... Your
-wish is my command.")
+         (text #:color 2 "Ako: " 0 " if it's something you want, I'll
+give it to you.")
          (wait)
          (text #:color 7 "" 0 ": ...")
          (wait)
