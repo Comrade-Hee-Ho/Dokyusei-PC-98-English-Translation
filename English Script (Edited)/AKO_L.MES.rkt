@@ -39,21 +39,21 @@
      (<>
       (text #:color 7 "" 0 ": H-hey Ako")
       (wait)
-      (text #:color 2 "Ako: Oh,hi..." 0 ".")
+      (text #:color 2 "Ako: Oh, hi..." 0 ".")
       (wait)
       (text #:color 7 "" 0 ": Ako... Are you alone?")
       (wait)
-      (text #:color 2 "Ako: Yes, I'm alone... Mako is on her way to school")
+      (text #:color 2 "Ako: Yes, I'm alone... Mako is on her way to
+school.")
       (wait)
-      (text #:color 7 "" 0 ": I see... so you are alone")
+      (text #:color 7 "" 0 ": I see... so you are alone.")
       (wait)
-      (text #:color 2 "Ako: How strange " 0 "...
-You are acting funny.")
+      (text #:color 2 "Ako: How strange " 0 "... You are acting
+funny.")
       (wait)
       (text #:color 7 "" 0 ": Ehh, you see...")
       (wait)
-      (text #:color 2 "Ako: Is there something you want to talk
-about?")
+      (text #:color 2 "Ako: Is there something you want to talk about?")
       (wait)
       (text #:color 7 "" 0 ": Yeah...")
       (wait)
@@ -77,8 +77,8 @@ around like usual.")
          (sound 1)
          (set-var I 13)
          (proc 26)
-         (text #:color 2 "Ako: " 0 "... The thing is... I...
-I really despise you.")
+         (text #:color 2 "Ako: " 0 "... The thing is... I... I really
+despise you.")
          (wait)
          (text #:color 7 "" 0 ": Gwaaaahhh...")
          (wait)
@@ -96,14 +96,13 @@ pharmacy it makes me want to close the shop.")
          (text #:color 7 "" 0 ": N-No way...")
          (wait)
          (text #:color 2 "Ako: If possible, I want you to never come here
-again. Could you drop by another pharmacy
-from now on?")
+again. Could you drop by another pharmacy from
+now on?")
          (wait)
          (text #:color 7 "" 0 ": N-No way...")
          (wait)
-         (text #:color 2 "Ako: So, could you go home...?
-And " 0 ", if you keep talking I'll start
-feeling depressed.")
+         (text #:color 2 "Ako: So, could you go home...? And " 0 ", if
+you keep talking I'll start feeling depressed.")
          (wait)
          (set-reg: 821 1)
          (slot 1 1)
@@ -132,14 +131,13 @@ feel sick.")
          (text #:color 7 "" 0 ": N-No way...")
          (wait)
          (text #:color 2 "Ako: If possible, I want you to never come here
-again. Could you drop by another pharmacy
-from now on?")
+again. Could you drop by another pharmacy from
+now on?")
          (wait)
          (text #:color 7 "" 0 ": N-No way...")
          (wait)
-         (text #:color 2 "Ako: So, could you go home...?
-And " 0 ", if you keep talking I'll start
-feeling depressed.")
+         (text #:color 2 "Ako: So, could you go home...? And " 0 ", if
+you keep talking I'll start feeling depressed.")
          (wait)
          (set-reg: 821 1)
          (slot 1 1)
@@ -194,8 +192,7 @@ like a dream come true.")
          (proc 26)
          (text #:color 7 "" 0 ": Ako...")
          (wait)
-         (text #:color 2 "Ako: " 0 ", I’ll do anything you want me
-to.")
+         (text #:color 2 "Ako: " 0 ", I’ll do anything you want me to.")
          (wait)
          (text #:color 7 "" 0 ": ...")
          (wait)
