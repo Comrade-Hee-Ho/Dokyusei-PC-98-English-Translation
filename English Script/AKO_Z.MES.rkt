@@ -44,15 +44,15 @@
       (text #:color 7 "" 0 ": Her name is “Ako Saito”, she's a woman
 who works at the Saito Pharmacy.")
       (wait)
-      (text #:color 7 "" 0 ": Ako is the younger sister of “Mako
-Saito”, Sakimake Academy's doctor, Mako and I
-attend there.")
+      (text #:color 7 "" 0 ": Ako is the younger sister of Mako
+Saito, our school doctor at Sakimake Academy.")
       (wait)
       (text #:color 7 "" 0 ": I was thinking, doesn't she have a
 inferiority complex regarding Mako?")
       (wait)
-      (text #:color 7 "" 0 ": Well, I guess that's normal when you
-have such a beautiful sister.")
+      (text #:color 7 "" 0 ": I guess when you have a sister like
+that it's bound to happen... but honestly, I
+think Ako is pretty cute herself.")
       (wait)
       (if-else (== (: 314) 1)
         (<>
@@ -73,9 +73,9 @@ have such a beautiful sister.")
          (animate 0 0 0)
          (animate 1 0)
          (set-arr~ @ 7 0)
-         (text #:color 7 "" 0 ": That reminds me, Ako and I once went
-to a coffee shop together... We licked our
-spoons and talked about various things.")
+         (text #:color 7 "" 0 ": That reminds me, didn't we visit a
+coffee shop together? We licked our spoons and
+talked about all sorts of stuff.")
          (wait)
          (set-arr~ @ 7 1)
          (set-arr~ @ 1 4096)
@@ -85,11 +85,11 @@ spoons and talked about various things.")
          (set-arr~ @ 9 (// (~ @ 9) 1))
          (proc 24)
          (set-arr~ @ 7 0)
-         (text #:color 7 "" 0 ": Hehehe, thanks to Satomi for giving me
-this spoon I was able to enjoy myself.")
+         (text #:color 7 "" 0 ": Hehehe, thanks to Satomi's spoon I was
+able to enjoy a sweet look at Ako's panties!")
          (wait)
-         (text #:color 7 "" 0 ": Hmm, at the time I was so aroused...
-that my willy almost lifted the table, yup.")
+         (text #:color 7 "" 0 ": I got so hard I almost flipped the
+table over with my dick, heh.")
          (wait)
          (set-arr~ @ 7 1)
          (set-arr~ @ 1 4096)
@@ -109,8 +109,8 @@ that my willy almost lifted the table, yup.")
          (text #:color 7 "" 0 ": So, after going to the park with Ako,
 I noticed she seemed as happy as a child.")
          (wait)
-         (text #:color 7 "" 0 ": After climbing the ladybug she said
-that she wanted to play in the slide...")
+         (text #:color 7 "" 0 ": After climbing the ladybug structure
+she said that she wanted to play in the slide...")
          (wait)
          (set-arr~ @ 7 1)
          (set-arr~ @ 1 4096)
@@ -127,15 +127,14 @@ that she wanted to play in the slide...")
          (animate 0 0 0)
          (animate 1 0)
          (set-arr~ @ 7 0)
-         (text #:color 7 "" 0 ": Well, that pose was really
-stimulating...  For a children's game it was
-unreasonable that her panties were at full
-sight.")
+         (text #:color 7 "" 0 ": Well, that pose was quite erotic…
+but for a playground slide, it’s hard to believe
+that simply going down it would give me such a
+clear view of her panties.")
          (wait)
-         (text #:color 7 "" 0 ": On top of that, her butt was not
-coming out of the slide... Hihihi, thanks to
-that I was able to touch her chest and various
-other parts.")
+         (text #:color 7 "" 0 ": On top of that, her butt was stuck and
+wouldn't come out. Hihihi, thanks to that I was
+able to touch her chest and various other parts.")
          (wait)
          (set-arr~ @ 7 1)
          (set-arr~ @ 1 4096)
@@ -152,17 +151,17 @@ other parts.")
          (set-arr~ @ 7 0)
          (animate 0 8 0)
          (animate 4 8)
-         (text #:color 7 "" 0 ": The final touch was a little kiss,
-just a small reward. After that, she beamed with
-joy and dashed off.")
+         (text #:color 7 "" 0 ": As for the finishing touches... I made
+her kiss me as a reward and she ran away happily
+after the kiss.")
          (wait)
          (text #:color 7 "" 0 ": ...")
          (wait)
-         (text #:color 7 "" 0 ": Somehow I misunderstood?")
+         (text #:color 7 "" 0 ": Am I misunderstanding something?")
          (wait)
          (text #:color 7 "" 0 ": ...")
          (wait)
-         (text #:color 7 "" 0 ": Oh, well... No point in thinking too
+         (text #:color 7 "" 0 ": Oh well... No point in thinking too
 much about it.")
          (wait))
         (<>))
@@ -187,14 +186,14 @@ much about it.")
          (text #:color 7 "" 0 ": That's right, it is not I who has been
 deep in thought... It's her.")
          (wait)
-         (text #:color 7 "" 0 ": Mako told me that Ako, was at the
-riverbank... And we talked about many topics
-while we were at it.")
+         (text #:color 7 "" 0 ": After Mako told me that Ako was at the
+riverbank we talked about many things.")
          (wait)
          (text #:color 7 "" 0 ": ...")
          (wait)
-         (text #:color 7 "" 0 ": Hmmm... Guess that my speaking skills
-will bring forth some outcome.")
+         (text #:color 7 "" 0 ": Well... I can use my sweet talk to
+convince her to that or that or that other one,
+too.")
          (wait))
         (<>))
       (if-else (== (: 676) 1)
@@ -208,18 +207,20 @@ will bring forth some outcome.")
          (set-arr~ @ 9 (// (~ @ 9) 1))
          (proc 24)
          (set-arr~ @ 7 0)
-         (text #:color 7 "" 0 ": That's right, I don't know what I was
-thinking when I went to the pharmacy and
-couldn't see Ako...")
+         (text #:color 7 "" 0 ": Yeah, I went down to the pharmacy
+thinking about what I was going to do with Ako,
+but when I got there she was nowhere to be
+found.")
          (wait)
-         (text #:color 7 "" 0 ": I was selfish when I entered that
-shop.")
+         (text #:color 7 "" 0 ": I went to the back of the shop without
+asking...")
          (wait)
-         (text #:color 7 "" 0 ": That pose Ako made when I was looking
-for something... She was really surprised.")
+         (text #:color 7 "" 0 ": That pose Ako was doing when she was
+searching for something... Geez, it was quite
+the sight.")
          (wait)
-         (text #:color 7 "" 0 ": While I was looking at her pose, I
-gradually became horny...")
+         (text #:color 7 "" 0 ": While I was looking at that pose,
+I gradually became horny...")
          (wait)
          (set-arr~ @ 7 1)
          (set-arr~ @ 1 4096)
@@ -236,15 +237,15 @@ gradually became horny...")
          (animate 0 0 0)
          (animate 1 0)
          (set-arr~ @ 7 0)
-         (text #:color 7 "" 0 ": She was surprised from the way I saw
-her...
-After that, she tormented me with questions.")
+         (text #:color 7 "" 0 ": She was surprised when she looked at
+me. Right after that she asked me a bunch of
+questions.")
          (wait))
         (<>))
       (if-else (== (: 603) 1)
         (<>
-         (text #:color 7 "" 0 ": I safely cleared her questions and
-then I kissed her...")
+         (text #:color 7 "" 0 ": Successfuly, I cleared her
+questions... And then I kissed her.")
          (wait)
          (text #:color 7 "" 0 ": While I was kissing her, her chest...
 Hihihihi...")
@@ -270,8 +271,8 @@ Hihihihi...")
          (set-arr~ @ 7 0)
          (animate 0 8 1)
          (animate 4 8)
-         (text #:color 7 "" 0 ": She was surprised by this and I was
-thrust away, so I forcibly removed her clothes.")
+         (text #:color 7 "" 0 ": She was surprised and I was thrusted
+away, so I forcibly removed her clothes.")
          (wait)
          (set-arr~ @ 7 1)
          (set-arr~ @ 1 4096)
@@ -301,10 +302,10 @@ thrust away, so I forcibly removed her clothes.")
          (text #:color 7 "" 0 ": ...")
          (wait)
          (text #:color 7 "" 0 ": However, she asked in such a insistent
-way, that I thought on leaving her.")
+way, that I thought on leaving.")
          (wait)
-         (text #:color 7 "" 0 ": Then the opposite of “going home”
-happened... Really, I don't understand women's
+         (text #:color 7 "" 0 ": Then the opposite of “leaving”
+happened... Jeez, I don't understand women's
 heart.")
          (wait)
          (set-arr~ @ 7 1)
@@ -327,8 +328,7 @@ heart.")
          (animate 0 0 0)
          (animate 1 0)
          (set-arr~ @ 7 0)
-         (text #:color 7 "" 0 ": And then I stripped her of her
-clothes...")
+         (text #:color 7 "" 0 ": And then I removed her clothes...")
          (wait)
          (set-arr~ @ 7 1)
          (set-arr~ @ 1 4096)
@@ -345,8 +345,8 @@ clothes...")
          (animate 0 0 0)
          (animate 1 0)
          (set-arr~ @ 7 0)
-         (text #:color 7 "" 0 ": Umm... Her naked body was immensely
-beautiful... Particularly her special parts.")
+         (text #:color 7 "" 0 ": Hmm... Her naked body was incredibly
+beautiful... Especially her special parts.")
          (wait)
          (set-arr~ @ 7 1)
          (set-arr~ @ 1 4096)
@@ -378,17 +378,17 @@ beautiful... Particularly her special parts.")
       (cond
        ((== (: 603) 0)
         (<>
-         (text #:color 7 "" 0 ": Fufufu... Ako may be older than me,
-but that's just how I like them.")
+         (text #:color 7 "" 0 ": Haha… Ako might be older than me,
+but she’s still well within my range.")
          (wait)))
        ((== (: 603) 1)
         (<>
-         (text #:color 7 "" 0 ": But somehow after that she was
-frightened...")
+         (text #:color 7 "" 0 ": But somehow after that it didn't seem
+like she was frightened.")
          (wait)
          (text #:color 7 "" 0 ": ...")
          (wait)
-         (text #:color 7 "" 0 ": Well, it's unusual for me to be
+         (text #:color 7 "" 0 ": Well, it's not like me me to be
 worried about women.")
          (wait)))
        (else (<>)))
