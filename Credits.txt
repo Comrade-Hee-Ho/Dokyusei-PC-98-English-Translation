@@ -8,5 +8,6 @@ Graphics Editing: N3O
 
 Romhacking: FCandChill, Kirinn
 
-Special Thanks: Xiya (for initially editing the script and being a huge inspiration for me with this project)
+Special Thanks: Xiya (for initially editing the script and being a huge inspiration for me with this project), FBates (for giving me advice on grammar and for helping me in general to improve my japanese)
+
 
