@@ -101,7 +101,7 @@
       (text "フラグ０７")
       (text "フラグ０８")
       (text "フラグ０９")
-      (text "やめる")))
+      (text "Stop")))
     (set-arr~ @ 7 0)
     (set-var A (~ @ 99))
     (set-var I 32768)
@@ -413,39 +413,38 @@
  (mouse 4 49152)
  (set-reg: 101 1)
  (set-arr~ @ 21 272)
- (text #:color 7 "My name is " 0 "... A third year from Sakimake
-Academy.")
+ (text #:color 7 "So, my name is " 0 "... A third year student
+from Sakimake Academy.")
  (wait)
  (text #:color 7 "Because of my parents' work, I had to leave the
 house and now live alone in a small apartment as
 a very independent 18-year old.")
  (wait)
- (text #:color 7 "Everyone respects me, and calls me " 0 "...
-Wait, isn't that just my name?")
+ (text #:color 7 "Everyone treats me with such reverence and calls
+me " 0 "... Wait—hold on. Isn’t that just my
+name?")
  (wait)
- (text #:color 7 "Anyway,the people around me sees me as a “horny
-lady-killer”, “pervert” and “guy whose dick is 
-thirsty”.")
+ (text #:color 7 "Anyway, the people around me sees me as a “horny
+lady-killer”, “pervert” and “guy whose dick has
+no time to be thirsty”.")
  (wait)
- (text #:color 7 "It truly seems to be like that.")
+ (text #:color 7 "Actually it really is like that, hahaha.")
  (wait)
  (text #:color 7 "...")
  (wait)
- (text #:color 7 "This year's summer vacation will be my last as a
-student... But I spend my time during the first
-half of it saving up money, all so I could date a
-girl.")
+ (text #:color 7 "This year's summer will be the last summer
+vacation of my student life... But I spend the
+first half of it on a part-time job, and for the
+sake of dating a girl I saved up money.")
  (wait)
- (text #:color 7
-  "So, from now on as far as I know this will be my
-summer vacation... The end of my student life is
-sure to be bittersweet so I have to make many
-memories so my time of uselessness is over.")
+ (text #:color 7 "So, from now on, as far as I know, this _will_ be
+my summer vacation... The end of my student life
+is sure to be bittersweet so I have to make many
+memories so I can't waste time.")
  (wait)
- (text #:color 7 "And lastly, I will get a girl's love, I just
-have to find it, I'm sure of that... I only have
-21 days to get this done, that's right I'll do
-it!!")
+ (text #:color 7 "And to find the girl I really like... I'm gonna
+go all out and burn with passion for the next 21
+days!!")
  (wait)
  (palette 3 0)
  (sound 1)
@@ -486,26 +485,26 @@ it!!")
  (proc 26)
  (set-reg: 835 0)
  (set-arr~ @ 21 272)
- (text #:color 6 "*Ring* *ring* *ring*")
+ (text #:color 6 "*ring* *ring* *ring*")
  (wait)
  (set-arr~ @ 21 272)
  (text #:color 7 "" 0 ": Hm...")
  (wait)
  (set-arr~ @ 21 272)
- (text #:color 6 "*Ring* *ring* *ring*")
+ (text #:color 6 "*ring* *ring* *ring*")
  (wait)
  (set-arr~ @ 21 272)
- (text #:color 7 "" 0 ": *Mumbling* Hmm... Who is it...
+ (text #:color 7 "" 0 ": *mumbling* Hmm... Who is it...
 Who is bothering my sweet sleep...")
  (wait)
  (set-arr~ @ 21 272)
- (text #:color 6 "*Ring* *ring* *ring*")
+ (text #:color 6 "*ring* *ring* *ring*")
  (wait)
  (set-arr~ @ 21 272)
  (text #:color 7 "" 0 ": ...")
  (wait)
  (set-arr~ @ 21 272)
- (text #:color 6 "*Ring* *ring* *ring*")
+ (text #:color 6 "*ring* *ring* *ring*")
  (wait)
  (set-arr~ @ 21 272)
  (text #:color 7 "" 0 ": Alright, I get it! I'll go, I'll go
@@ -513,7 +512,7 @@ alright!?")
  (wait)
  (sound 1)
  (set-arr~ @ 21 272)
- (text #:color 6 "*Clank*！！")
+ (text #:color 6 "*clank*!!")
  (wait)
  (slot 1 2)
  (mes-jump "myroom.mes"))
