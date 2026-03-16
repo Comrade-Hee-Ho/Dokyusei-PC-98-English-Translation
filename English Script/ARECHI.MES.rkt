@@ -18,10 +18,11 @@
    (cond
     ((&& (== V 108) (== (: 158) 1) (== (: 10) 0))
      (<>
-      (text #:color 7 "" 0 ": As I looked around I picked up the
-money and put it in the envelope...")
+      (text #:color 7 "" 0 ": I picked up the envelope here, right?
+Hope I can find another one, quickly!!!")
       (wait)
-      (text #:color 7 "" 0 ": Hahaha, how many times must that fall?")
+      (text #:color 7 "" 0 ": Hahaha, obviously stuff like that
+doesn't fall on the ground all the time.")
       (wait)
       (set-reg: 10 1)
       (break)))
@@ -34,24 +35,23 @@ pickup the trash?")
       (break)))
     ((&& (== V 108) (== (: 158) 1) (== (: 10) 2))
      (<>
-      (text #:color 7 "" 0 ": Hey... How about we weed the garden
-together?")
+      (text #:color 7 "" 0 ": Hey... You want me to weed the ground
+or something?")
       (wait)
       (set-reg: 10 3)
       (break)))
     ((&& (== V 108) (== (: 158) 1) (== (: 10) 3))
-     (<> (text #:color 7 "" 0 ": Now this is tedious, should I go to a
-different place?") (wait) (break)))
+     (<> (text #:color 7 "" 0 ": Even if I stay here, it’s just
+annoying... Shouldn’t I go somewhere else?") (wait) (break)))
     ((&& (== V 108) (== (: 159) 0) (== (: 158) 0))
      (<>
       (text #:color 7 "" 0 ": What...? Why did I went to this place?")
       (wait)
-      (text #:color 7 "" 0 ": Sheesh! My shoes are full of dirt,
-man! What's that!?")
+      (text #:color 7 "" 0 ": Aww man! My shoes full of dirt now...
+Huh!?")
       (wait)
-      (text #:color 7 "" 0 ": What the...? Did I just dropped the
-envelope while I was in the middle of opening
-it?")
+      (text #:color 7 "" 0 ": What the...? It's a fallen envelope,
+should I try to open it?")
       (wait)
       (set-reg: 101 0)
       (set-arr~ @ 7 0)
@@ -61,15 +61,15 @@ it?")
       (cond
        ((== N 1)
         (<>
-         (text #:color 7 "" 0 ": What...? “This envelope with money,
+         (text #:color 7 "" 0 ": W-What...? “This envelope with money,
 it's yours.”.")
          (wait)
          (text #:color 7 "" 0 ": “This is your last summer vacation...
-The memories of the youth are bittersweet, so
-for your sake make good use of this.”...!?")
+Please let it be useful for making the
+bittersweet memories of your youth.”...!?")
          (wait)
-         (text #:color 7 "" 0 ": T-ten thousand yen!? Who the hell is
-this envelope from!?")
+         (text #:color 7 "" 0 ": T-ten thousand yen!? Who would drop
+something like this!?")
          (wait)
          (sound 1)
          (set-var I 58)
@@ -77,9 +77,9 @@ this envelope from!?")
          (set-reg: 835 0)
          (set-var M (+ M 10000))
          (proc 11)
-		 (set-arr~ @ 21 (+ 256 16))
-         (text #:color 7 "" 0 ": Hmm, it seems Lady Luck is on my side
-this time haha.")
+         (set-arr~ @ 21 (+ 256 16))
+         (text #:color 7 "" 0 ": No, there's no doubt that Lady Luck is
+on my side.")
          (wait)
          (sound 1)
          (set-var I 50)
@@ -88,8 +88,8 @@ this time haha.")
          (set-reg: 158 1)))
        ((== N 2)
         (<>
-         (text #:color 7 "" 0 ": That's right... The envelope must have
-a dead cockroach inside for sure.")
+         (text #:color 7 "" 0 ": That's right... There's no doubt the
+envelope has a dead cockroach inside.")
          (wait)
          (set-reg: 159 1)))
        (else (<>)))
@@ -101,7 +101,7 @@ still laying on the ground.")
       (wait)
       (text #:color 7 "" 0 ": ...")
       (wait)
-      (text #:color 7 "" 0 ": This time, will it open?")
+      (text #:color 7 "" 0 ": This time, will I open it?")
       (wait)
       (set-reg: 101 0)
       (set-arr~ @ 7 0)
@@ -111,15 +111,15 @@ still laying on the ground.")
       (cond
        ((== N 1)
         (<>
-         (text #:color 7 "" 0 ": What...? “This envelope with money,
+         (text #:color 7 "" 0 ": W-What...? “This envelope with money,
 it's yours.”.")
          (wait)
          (text #:color 7 "" 0 ": “This is your last summer vacation...
-The memories of the youth are bittersweet, so
-for your sake make good use of this.”...!?")
+Please let it be useful for making the
+bittersweet memories of your youth.”...!?")
          (wait)
-         (text #:color 7 "" 0 ": T-ten thousand yen!? Who the hell is
-this envelope from!?")
+         (text #:color 7 "" 0 ": T-ten thousand yen!? Who would drop
+something like this!?")
          (wait)
          (sound 1)
          (set-var I 58)
@@ -128,8 +128,8 @@ this envelope from!?")
          (set-var M (+ M 10000))
          (proc 11)
 		 (set-arr~ @ 21 (+ 256 16))
-         (text #:color 7 "" 0 ": Hmm, it seems Lady Luck is on my side
-this time haha.")
+         (text #:color 7 "" 0 ": No, there's no doubt that Lady Luck is
+on my side.")
          (wait)
          (sound 1)
          (set-var I 50)
