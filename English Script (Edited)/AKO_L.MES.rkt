@@ -37,7 +37,7 @@
    (clear)
    (if-else (== N 2)
      (<>
-      (text #:color 7 "" 0 ": H-hey Ako")
+      (text #:color 7 "" 0 ": H-hey Ako.")
       (wait)
       (text #:color 2 "Ako: Oh, hi..." 0 ".")
       (wait)
