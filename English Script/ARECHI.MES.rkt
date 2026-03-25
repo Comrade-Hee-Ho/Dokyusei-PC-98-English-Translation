@@ -45,7 +45,7 @@ or something?")
 annoying... Shouldn’t I go somewhere else?") (wait) (break)))
     ((&& (== V 108) (== (: 159) 0) (== (: 158) 0))
      (<>
-      (text #:color 7 "" 0 ": What...? Why did I went to this place?")
+      (text #:color 7 "" 0 ": What...? Why did I go to this place?")
       (wait)
       (text #:color 7 "" 0 ": Aww man! My shoes full of dirt now...
 Huh!?")
