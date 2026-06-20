@@ -465,7 +465,7 @@
         (+ 10 (* (: 101) 46)) ;makes screen flash or something and affects width of the white line from its left side
         (+ (* I 16) 8 8) ;how tall the white line is
         (+ 27 (* (: 101) 46)) ;width of the white line
-        (+ (* I 16) 23 8))
+        (+ (* I 16) 23 8)) ;affects the height of the white line
        (mouse 0)))
     (define-proc 31
       (<>
@@ -474,7 +474,7 @@
        (menu-init 0)
        (if-else (> (~ @ 26) 10)
          (<> (blit-mask (+ 0 16) 104 (+ 15 16) 111 3 (+ 9 (* (: 101) 46)) 8 0))
-         (<> (blit-mask 0 104 19 129 3 (+ 9 (* (: 101) 46)) 8 0)))
+         (<> (blit-mask 0 104 19 111 3 (+ 9 (* (: 101) 46)) 8 0))) ;position of the graphic, 19 affects the length of the box's top line 
        (set-var L (- (~ @ 26) (~ @ 24)))
        (if (> L 10) (<> (set-var L 10)))
        (set-var I 0)
@@ -482,44 +482,44 @@
         (!= I L)
         (<>
          (set-var J (~ @ 22))
-         (blit 0 112 15 127 3 0 136 3)
+         (blit 0 112 19 159 3 0 136 3) ;affects bottom part of the graphic? 2nd 0 affects the graphics edges? 19 affects the transparency?
          (if-else (== (: 1002) 0)
            (<>
             (set-arr~ @ 6 3)
             (color 135)
-            (box 0 152 15 167)
+            (box 0 152 19 167) ;18 is the white line's lenght drawing size?
             (set-arr~ @ 17 1 152)
             (call (~ J (* I 2)))
-            (blit-mask 0 152 15 167 3 0 136 3)
+            (blit-mask 0 152 19 167 3 0 136 3) ;doesn't seem to affect anything, but first 0 affects text position
             (blit-mask
-             0
+             0 ;position of text?
              136
-             15
+             19 ;Affects the white line's drawing length too
              151
-             3
-             (- (+ 10 (* (: 101) 46)) 1)
+             3 ;Draws parts of WAKU.PD8 into FONT.PD8?
+             (- (+ 10 (* (: 101) 46)) 1) ;last number (1) affects the position of where the middle parts are drawn
              (+ (* I 16) 8 8)
              0))
            (<>
             (set-arr~ @ 6 3)
             (color 7)
-            (box 0 152 15 167)
+            (box 0 152 19 167) ;19 affects the length of the graphic?
             (set-arr~ @ 17 1 152)
             (call (~ J (* I 2)))
-            (blit 1 152 18 167 3 1 136 3)
+            (blit 1 149 18 167 3 1 133 3) ;dictates what part of the transparency is applied, number 1 dictates position of text, 20 affects the transparency drawing
             (blit
              0
              136
-             18
+             19 ;adjusts the amount of text drawn
              151
              3
-             (- (+ 10 (* (: 101) 46)) 1)
+             (- (+ 10 (* (: 101) 46)) 1) ;The formula calculates the position on which the text box is drawn
              (+ (* I 16) 8 8)
              0)))
          (set-var I (+ I 1))))
        (if-else (> (~ @ 26) 10)
          (<>
-          (blit-mask
+          (blit-mask ;Unknown functionality
            (+ 0 16)
            128
            (+ 15 16)
@@ -529,7 +529,7 @@
            (+ (* I 16) 8 8)
            0))
          (<>
-          (blit-mask 0 128 19 135 3 (+ 9 (* (: 101) 46)) (+ (* I 16) 8 8) 0)))
+          (blit-mask 0 128 19 135 3 (+ 9 (* (: 101) 46)) (+ (* I 16) 8 8) 0))) ;which part of the FONT.PD8 is drawn, 19 is the bottom part of the graphic
        (set-arr~ @ 6 0)
        (color 112)
        (set-arr~ @ 23 0)))
@@ -541,7 +541,7 @@
        (cond
         ((&&
           (> X (* (+ 9 (* (: 101) 46)) 8))
-          (< X (* (+ 24 (* (: 101) 46)) 8))
+          (< X (* (+ 40 (* (: 101) 46)) 8))
           (> Y 0)
           (< Y (+ 8 8)))
          (<>
@@ -555,7 +555,7 @@
              (proc 30)))))
         ((&&
           (> X (* (+ 9 (* (: 101) 46)) 8))
-          (< X (* (+ 24 (* (: 101) 46)) 8))
+          (< X (* (+ 40 (* (: 101) 46)) 8))
           (> Y (+ (* L 16) 8 8))
           (< Y (+ (* L 16) 23 16)))
          (<>
