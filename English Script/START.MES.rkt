@@ -482,12 +482,12 @@
         (!= I L)
         (<>
          (set-var J (~ @ 22))
-         (blit 0 112 19 159 3 0 136 3) ;affects bottom part of the graphic? 2nd 0 affects the graphics edges? 19 affects the transparency?
+         (blit 0 112 19 127 3 0 136 3) ;affects bottom part of the graphic? 2nd 0 affects the graphics edges? 19 affects the transparency?
          (if-else (== (: 1002) 0)
            (<>
             (set-arr~ @ 6 3)
             (color 135)
-            (box 0 152 19 167) ;18 is the white line's lenght drawing size?
+            (box 0 152 19 167) ;19 is the white line's lenght drawing size?
             (set-arr~ @ 17 1 152)
             (call (~ J (* I 2)))
             (blit-mask 0 152 19 167 3 0 136 3) ;doesn't seem to affect anything, but first 0 affects text position
@@ -506,7 +506,7 @@
             (box 0 152 19 167) ;19 affects the length of the graphic?
             (set-arr~ @ 17 1 152)
             (call (~ J (* I 2)))
-            (blit 1 149 18 167 3 1 133 3) ;dictates what part of the transparency is applied, number 1 dictates position of text, 20 affects the transparency drawing
+            (blit 1 152 18 167 3 1 136 3) ;dictates what part of the transparency is applied, number 1 dictates position of text, 18 affects the transparency drawing
             (blit
              0
              136
@@ -541,7 +541,7 @@
        (cond
         ((&&
           (> X (* (+ 9 (* (: 101) 46)) 8))
-          (< X (* (+ 40 (* (: 101) 46)) 8))
+          (< X (* (+ 24 (* (: 101) 46)) 8))
           (> Y 0)
           (< Y (+ 8 8)))
          (<>
@@ -555,7 +555,7 @@
              (proc 30)))))
         ((&&
           (> X (* (+ 9 (* (: 101) 46)) 8))
-          (< X (* (+ 40 (* (: 101) 46)) 8))
+          (< X (* (+ 24 (* (: 101) 46)) 8))
           (> Y (+ (* L 16) 8 8))
           (< Y (+ (* L 16) 23 16)))
          (<>
