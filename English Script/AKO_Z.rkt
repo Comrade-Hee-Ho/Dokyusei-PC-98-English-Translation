@@ -1,5 +1,5 @@
 (mes
- (meta (engine 'AI5) (charset "English") (dictbase 128))
+ (meta (engine 'AI5) (charset "english") (dictbase 128))
  (dict-build)
  (set-arr~ @ 7 1)
  (set-arr~ @ 3 0)
