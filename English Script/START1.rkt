@@ -372,34 +372,35 @@
  (text #:color 7 "So, my name is " 0 "... A third year student
 from Sakimake Academy.")
  (wait)
- (text #:color 7 "Because of my parents' work, I had to leave the
+ (text #:color 7 "Because of my parents' work I had to leave the
 house and now live alone in a small apartment as
-a very independent 18-year old.")
+a very independent and energetic 18-year old.")
  (wait)
- (text #:color 7 "Everyone is filled with respect, and calls me
-" 0 "... Wait, wait, isn't that just my name?")
+ (text #:color 7 "Everyone is filled with respect for me and thus
+calls me " 0 "... Wait, wait, isn't that just
+my name?")
  (wait)
- (text #:color 7 "Anyway, the people around me sees me as a “horny
-lady-killer\", “pervert\" and “guy whose dick has
-no time to be thirsty\".")
+ (text #:color 7 "Anyway, the people around see me as a “horny
+lady-killer”, “embodiment of lewdness” and “guy
+who's horny 24/7.”")
  (wait)
- (text #:color 7 "Actually it really is like that, hahaha.")
+ (text #:color 7 "Because it's true, I swear, hahaha.")
  (wait)
- (text #:color 7 "...")
+ (text #:color 7 "Hmm...")
  (wait)
- (text #:color 7 "This year's summer will be the last summer
-vacation of my student life... But I spend the
-first half of it on a part-time job, and for the
-sake of dating a girl I saved up money.")
+ (text #:color 7 "This year will be the last summer vacation of my
+student life... So I spend the first half of it
+on a part-time job, and for the sake of dating
+girls I saved up money.")
  (wait)
- (text #:color 7 "So, from now on, as far as I know, this _will_ be
+ (text #:color 7 "Well, from now on, as far as I know, this _will_ be
 my summer vacation... The end of my student life
 is sure to be bittersweet so I have to make many
-memories so I can't waste time.")
+memories, thus I can't waste time.")
  (wait)
- (text #:color 7 "And to find the girl I really like... I'm gonna
-go all out and burn with passion for the next 21
-days!!")
+ (text #:color 7 "Therefore to find the girl I really like... I'm
+gonna go all out and burn with passion for the
+next 21 days!!")
  (wait)
  (palette 3 0)
  (sound 1)
