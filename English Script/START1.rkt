@@ -393,10 +393,10 @@ student life... So I spend the first half of it
 on a part-time job, and for the sake of dating
 girls I saved up money.")
  (wait)
- (text #:color 7 "Well, from now on, as far as I know, this _will_ be
-my summer vacation... The end of my student life
-is sure to be bittersweet so I have to make many
-memories, thus I can't waste time.")
+ (text #:color 7 "Well, from now on, as far as I know, this _will_
+be my summer vacation... The end of my student
+life is sure to be bittersweet so I have to make
+many memories, thus I can't waste time.")
  (wait)
  (text #:color 7 "Therefore to find the girl I really like... I'm
 gonna go all out and burn with passion for the
