@@ -450,8 +450,8 @@ next 21 days!!")
  (text #:color 6 "*ring* *ring* *ring*")
  (wait)
  (set-arr~ @ 21 272)
- (text #:color 7 "" 0 ": *mumbling* Hmm... Who is it...
-Who is bothering my sweet sleep...")
+ (text #:color 7 "" 0 ": Hm... Hmm... Who is it... Who is
+bothering my sweet sleep...")
  (wait)
  (set-arr~ @ 21 272)
  (text #:color 6 "*ring* *ring* *ring*")
