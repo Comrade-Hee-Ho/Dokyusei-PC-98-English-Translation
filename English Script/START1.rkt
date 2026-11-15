@@ -464,7 +464,7 @@ Who is bothering my sweet sleep...")
  (wait)
  (set-arr~ @ 21 272)
  (text #:color 7 "" 0 ": Alright, I get it! I'll go, I'll go
-alright!?")
+alright?!")
  (wait)
  (sound 1)
  (set-arr~ @ 21 272)
