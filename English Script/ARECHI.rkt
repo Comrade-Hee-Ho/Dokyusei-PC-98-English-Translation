@@ -88,7 +88,7 @@ as me has lady luck on his side.")
                        ((== N 2)
                         (<>
                          (text #:color 7 "" 0 ": Well, there must be a dead cockroach
-or something inside.")
+inside or something.")
                          (wait)
                          (set-reg: 159 1)))
                        (else (<>)))
